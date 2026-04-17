@@ -1,0 +1,33 @@
+.recherche-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 0px;
+  padding: 0.7rem 1rem;
+  border: 1px solid #e0e0e0;
+  transition: box-shadow 0.3s ease;
+  margin: 0.1rem;
+}
+
+.recherche-container:hover {
+  border: 1px solid #221e1e;
+}
+
+.recherche-container label {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.recherche-input {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: #333;
+  background: transparent;
+  width: 200px;
+}
+
+.recherche-input::placeholder {
+  color: #999;
+}
